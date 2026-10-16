@@ -1,0 +1,8 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="robots" content="noindex"><title>Moved</title>
+<script>
+  // Everything under /hotshot/ moved to https://hotshot.kwixa.co.uk/ (same path); anything else to kwixa.co.uk.
+  var p = location.pathname;
+  location.replace(p.indexOf('/hotshot/') === 0 ? 'https://hotshot.kwixa.co.uk' + p.slice('/hotshot'.length) + location.search + location.hash : 'https://kwixa.co.uk/');
+</script></head>
+<body><p>This site has moved to <a href="https://kwixa.co.uk/">kwixa.co.uk</a>. HotShot pages are at <a href="https://hotshot.kwixa.co.uk/">hotshot.kwixa.co.uk</a>.</p></body></html>
